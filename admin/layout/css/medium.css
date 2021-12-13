@@ -1,0 +1,146 @@
+/* CSS Document */
+/*start login*/
+
+
+
+
+/*end login*/
+
+
+        nav .center {
+			position:absolute;
+            
+            margin-left: 50%;
+			right: 14px;
+			
+        }
+        nav .center .profile_options {
+            top: 0px;
+        }
+        /* end navigation bar */  
+
+		
+		
+		/* start  edit profile*/
+		
+		 .edit_profile {
+            width: 95%;
+            height: 600px;
+            padding: 25px 0;
+        }
+
+        .edit_profile>div {
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .edit_profile>div>label {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .edit_profile>div>input {
+
+            width: 75%;
+
+        }
+		
+		  /*   insert * if the input required*/
+			.edit_profile>div>span {
+			top: 42px;
+			left: 90%;
+			 }
+
+
+			/*    style eye password*/
+			.password_eye,
+			.password_deye{
+			 top: 47px;}
+
+		
+		/* start  edit profile*/
+		
+		
+		/* start error list and succesed*/
+		.errors_list {
+        width: 90%;
+    }
+	.succes{
+		
+		 width:70%;
+		 
+		}
+		
+		
+		
+		/* end error list and succesed*/
+		
+		
+		/*start member table*/
+	.table_mumbers,.table_container {
+		overflow-x:scroll;
+        width: 100%;
+    }
+	.table_container {
+		overflow-x:scroll;
+    }
+	.table_container > a{
+		left:2%;
+		}
+	.table_container tr  a:first-child{
+			display:block;
+			margin-bottom:4px;
+			}
+	.table_container tr  a:last-child{
+				display:block;
+				margin-top:4px;
+			
+			}
+        /*end member table*/
+        
+
+
+        /*======================start items page=============================*/
+
+
+.add_status{
+    height: 700px;
+    justify-content: center;
+
+}
+
+.add_status>input[type="submit"]{
+    margin-top: 10px;
+}
+
+
+/*---------------------- end items page ----------------------------*/
+		
+.res_search_h1{
+    margin-left: 2%;
+}
+
+nav .center {
+    width: 100px;
+	    right: 0px;
+
+}
+.notifications {
+    right: 100px;
+}
+nav .logo {
+    left: 45px;
+}
+.notification-box {
+    width: 140px;
+
+}
+nav {
+    height: 90px;
+}
+/* dashboard */
+.dashboard_container {
+    width: 100%;
+}
